@@ -24,6 +24,9 @@ games:
   - title: "Subway Surfers"
     image: "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/1c920b9279c2bedec567c1b58129ae8f/subway-surfers-logo.png"
     url: "https://crashy102.github.io/nettgames2/games/subwaySurfers"
+  - title: "Snow Rider 3D"
+    image: "https://snowrider3d.com/data/image/game/snow-rider-3d.png1.PNG"
+    url: "https://crashy102.github.io/nettgames2/games/snowRider3D"
 
 # --------------------------------------------------------------
 # THEMES
