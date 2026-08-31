@@ -97,8 +97,7 @@
      ============================================================ */
   const ICON_DIR = "icons/";
   const ICON_EXTENSIONS = ["svg", "png"];
-  const ICON_KEEP_COLOR = new Set(["nett1", "nett2"]); // rendered as a plain <img>, not tinted
-  const ICON_HIDE_IF_MISSING = new Set(["nett1", "nett2"]);
+  const ICON_KEEP_COLOR = new Set(["sidebar-image"]); // rendered as a plain <img>, not tinted
 
   function probeImage(src) {
     return new Promise((resolve, reject) => {
@@ -131,7 +130,6 @@
         }
         return; // found one, stop trying extensions
       } catch (e) { /* try the next extension */ }
-      if (ICON_HIDE_IF_MISSING.has(name)) slot.hidden = true;
     }
     // Nothing found for this name — leave the slot blank, as before.
   }
@@ -169,7 +167,11 @@
       t = setTimeout(() => fn(...args), wait);
     };
   }
-  
+
+  function normalize(str) {
+    return (str || "").toString().toLowerCase().trim();
+  }
+
   function compareTitles(a, b) {
     // Numeric-aware, locale-aware A→Z sort — "Level 2" sorts before
     // "Level 10", and symbols/numbers are ordered sensibly rather than
@@ -188,10 +190,6 @@
       seen.add(key);
       return true;
     };
-  }
-
-  function normalize(str) {
-    return (str || "").toString().toLowerCase().trim();
   }
 
   function hexToRgb(hex) {
@@ -233,7 +231,7 @@
         enabled: !!(cfg.announcement && cfg.announcement.enabled && cfg.announcement.text),
         text: (cfg.announcement && cfg.announcement.text) || "",
       },
-      games: Array.isArray(cfg.games) ? cfg.games.map(sanitizeGame).filter(Boolean).sort(compareTitles) : [],
+      games: Array.isArray(cfg.games) ? cfg.games.map(sanitizeGame).filter(Boolean).filter(dedupeByTitle()).sort(compareTitles) : [],
       themes: Array.isArray(cfg.themes) ? cfg.themes.map(sanitizeTheme).filter(Boolean) : [],
     };
   }
@@ -455,6 +453,9 @@
         seenIds.add(g.id);
         return true;
       });
+      if (uniqueRawGames.length !== rawGames.length) {
+        console.info(`LuminSDK: dropped ${rawGames.length - uniqueRawGames.length} duplicate id(s) from pagination.`);
+      }
 
       const images = await Promise.all(
         uniqueRawGames.map(g =>
@@ -464,13 +465,18 @@
         )
       );
 
-      lumin.games = uniqueRawGames.map((g, i) => ({
+      const mappedGames = uniqueRawGames.map((g, i) => ({
         id: g.id,
         title: g.name,
         image: images[i] || "",
         category: g.category || "",
         isLumin: true,
-      })).filter(dedupeByTitle()).sort(compareTitles);
+      }));
+      const dedupedByTitle = mappedGames.filter(dedupeByTitle());
+      if (dedupedByTitle.length !== mappedGames.length) {
+        console.info(`LuminSDK: dropped ${mappedGames.length - dedupedByTitle.length} duplicate-name entr${mappedGames.length - dedupedByTitle.length === 1 ? "y" : "ies"} (different ids, same title).`);
+      }
+      lumin.games = dedupedByTitle.sort(compareTitles);
       lumin.loaded = true;
     } catch (err) {
       console.error("Failed to load LuminSDK catalog:", err);
@@ -749,7 +755,7 @@
     a.click();
     a.remove();
     URL.revokeObjectURL(url);
-    el.saveModalStatus.textContent = "Save file downloaded. PUT IT IN GOOGLE DRIVE!";
+    el.saveModalStatus.textContent = "Save file downloaded.";
   }
 
   function importLocalStorageFromFile(file) {
