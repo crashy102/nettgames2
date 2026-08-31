@@ -177,6 +177,19 @@
     return a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: "base" });
   }
 
+  function dedupeByTitle() {
+    // Returns a fresh filter function each call (its `seen` set needs to
+    // reset per list) that drops any entry whose title — trimmed and
+    // case-folded — has already been kept.
+    const seen = new Set();
+    return game => {
+      const key = normalize(game.title);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    };
+  }
+
   function normalize(str) {
     return (str || "").toString().toLowerCase().trim();
   }
@@ -431,21 +444,33 @@
         page++;
       } while (page <= pages && page <= LUMIN_MAX_PAGES);
 
+      // Page-based pagination over a catalog that can change between
+      // requests can hand back the same game on two different pages
+      // (everything shifts if something's added/removed mid-fetch).
+      // Drop repeats by id here, before spending an API call resolving
+      // an image for a game we already have.
+      const seenIds = new Set();
+      const uniqueRawGames = rawGames.filter(g => {
+        if (seenIds.has(g.id)) return false;
+        seenIds.add(g.id);
+        return true;
+      });
+
       const images = await Promise.all(
-        rawGames.map(g =>
+        uniqueRawGames.map(g =>
           g.image_token
             ? window.Lumin.getImageUrl(g.image_token).catch(() => "")
             : Promise.resolve("")
         )
       );
 
-      lumin.games = rawGames.map((g, i) => ({
+      lumin.games = uniqueRawGames.map((g, i) => ({
         id: g.id,
         title: g.name,
         image: images[i] || "",
         category: g.category || "",
         isLumin: true,
-      })).sort(compareTitles);
+      })).filter(dedupeByTitle()).sort(compareTitles);
       lumin.loaded = true;
     } catch (err) {
       console.error("Failed to load LuminSDK catalog:", err);
