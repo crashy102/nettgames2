@@ -1,0 +1,79 @@
+# ============================================================
+# Nett Games 2.0 — site config
+# Edit this file and push. No rebuild step needed.
+# ============================================================
+
+announcement:
+  enabled: true
+  text: "NETT GAMES 2 IS OUT NOOOOOOOOOWW tell your friends"
+
+# --------------------------------------------------------------
+# GAMES (Nett only)
+#   title:  display name
+#   image:  a data: URI (svg/png/jpg all work). Placeholder below.
+#   url:    where clicking the card opens (loaded inside the cloak window)
+#
+# LuminSDK games are NOT listed here — the site pulls those live from
+# LuminSDK's own catalog (docs.luminsdk.com) when someone opens the
+# "LuminSDK" tab of the game switcher. This list is Nett's games only.
+# --------------------------------------------------------------
+games:
+  - title: "nun yet"
+    image: ""
+    url: "https://example.com"
+
+# --------------------------------------------------------------
+# THEMES
+#   name:     shown on the preview button
+#   mode:     "light" or "dark"
+#   accents:  1 or 2 hex codes. First is the primary accent,
+#             second (optional) is used for gradients/highlights.
+# --------------------------------------------------------------
+themes:
+  - name: "drankdrankdrank (Classic)"
+    mode: dark
+    accents: ["#341A7A", "#950BFF"]
+
+  - name: "drankdrankdrank (Lite)"
+    mode: light
+    accents: ["#341A7A", "#950BFF"]
+
+  - name: "Omega Dark Mode"
+    mode: dark
+    accents: ["#000000", "#000000"]
+
+  - name: "F*CK SWAG"
+    mode: dark
+    accents: ["#97B3BD", "#4C726F"]
+
+  - name: "BAFK"
+    mode: light
+    accents: ["#B1BCE4", "#18B4A0"]
+
+  - name: "ELC"
+    mode: light
+    accents: ["#8695df", "#DD73A1"]
+
+  - name: "Carti"
+    mode: dark
+    accents: ["#ff0000", "#3d0000"]
+
+  - name: "2slimey"
+    mode: light
+    accents: ["#1d27b9", "#a12121"]
+
+  - name: "Osamason"
+    mode: dark
+    accents: ["#A6332D", "#BEB7AA"]
+
+  - name: "Hey, it's me, it's Verity"
+    mode: dark
+    accents: ["#F2CC05", "#ffae00"]
+
+  - name: "Lebron"
+    mode: dark
+    accents: ["#FDB927", "#31006F"]
+
+  - name: "Poop and Fart"
+    mode: dark
+    accents: ["#2D1403", "#5E7811"]

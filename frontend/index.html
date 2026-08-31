@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nett Games 2.0</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <span class="icon-slot logo-slot" data-icon="logo"></span>
+      <span class="logo-text">Nettspend Games 2.0</span>
+    </div>
+
+    <nav class="sidebar-nav">
+      <button class="nav-btn active" data-page="games" type="button">
+        <span class="icon-slot" data-icon="nav-games"></span>
+        <span>Games</span>
+      </button>
+      <button class="nav-btn" data-page="themes" type="button">
+        <span class="icon-slot" data-icon="nav-themes"></span>
+        <span>Themes</span>
+      </button>
+    </nav>
+    <div class="sidebar-footer">
+      <span class="icon-slot sidebar-image-slot" data-icon="nett1"></span>
+      <span class="version-tag">2.0.0</span>
+    </div>
+  </aside>
+
+  <div class="main">
+
+    <header id="announcement" class="announcement" hidden>
+      <span class="icon-slot megaphone-slot" data-icon="megaphone"></span>
+      <p id="announcement-text"></p>
+      <button id="announcement-close" class="icon-btn" type="button" aria-label="Dismiss announcement">
+        <span class="close-x"></span>
+      </button>
+    </header>
+
+    <main class="content">
+
+      <!-- GAMES PAGE -->
+      <section id="page-games" class="page active" aria-labelledby="games-title">
+        <div class="page-head">
+          <h1 id="games-title" class="page-title">Games</h1>
+        </div>
+
+        <div class="games-toolbar">
+          <div class="source-switch" role="tablist" aria-label="Game source">
+            <span class="switch-thumb" aria-hidden="true"></span>
+            <button class="switch-option active" data-source="nett" type="button" role="tab" aria-selected="true">Nettspend</button>
+            <button class="switch-option" data-source="lumin" type="button" role="tab" aria-selected="false">LuminSDK</button>
+          </div>
+
+          <div class="search-wrap">
+            <span class="icon-slot search-icon-slot" data-icon="search"></span>
+            <input id="search-input" type="text" placeholder="Search games…" autocomplete="off" spellcheck="false">
+          </div>
+
+          <button id="save-btn" class="btn glass-btn icon-only" type="button" aria-label="Save" title="Save">
+            <span class="icon-slot" data-icon="save"></span>
+          </button>
+
+          <div id="lumin-warning" class="lumin-warning glass-panel" role="status" hidden>
+            <span class="icon-slot" data-icon="warning"></span>
+            <p>A lot of LuminSDK games just straight up DONT WORK</p>
+          </div>
+        </div>
+
+        <div id="game-grid" class="game-grid" aria-live="polite"></div>
+        <p id="no-results" class="no-results" hidden>No games match your search.</p>
+        <p id="loading-games" class="loading-msg">Loading games…</p>
+      </section>
+
+      <!-- THEMES PAGE -->
+      <section id="page-themes" class="page" aria-labelledby="themes-title">
+        <div class="page-head">
+          <h1 id="themes-title" class="page-title">Themes</h1>
+        </div>
+
+        <div id="theme-grid" class="theme-grid"></div>
+
+        <div class="custom-theme-bar glass-panel">
+          <span class="custom-bar-label">Custom</span>
+
+          <div class="mode-switch-wrap">
+            <span class="mode-label">Light</span>
+            <button id="custom-mode-switch" class="mode-switch" type="button" role="switch" aria-checked="false" aria-label="Toggle light or dark mode">
+              <span class="mode-switch-thumb"></span>
+            </button>
+            <span class="mode-label">Dark</span>
+          </div>
+
+          <div class="color-picker-group">
+            <label class="color-circle-label">
+              <span class="color-circle-wrap">
+                <input type="color" id="custom-accent-1" value="#FFFFFF">
+              </span>
+              <span class="color-circle-caption">Accent 1</span>
+            </label>
+            <label class="color-circle-label">
+              <span class="color-circle-wrap">
+                <input type="color" id="custom-accent-2" value="#FFFFFF">
+              </span>
+              <span class="color-circle-caption">Accent 2</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<!-- MODALS -->
+<div id="modal-overlay" class="modal-overlay" hidden>
+
+  <div id="save-modal" class="modal glass-panel" role="dialog" aria-modal="true" aria-labelledby="save-modal-title" hidden>
+    <div class="modal-head">
+      <h2 id="save-modal-title">Save data</h2>
+      <button class="icon-btn modal-close" type="button" aria-label="Close" data-close-modal="save-modal">
+        <span class="close-x"></span>
+      </button>
+    </div>
+    <p class="modal-sub">Export your local progress and settings to a file, or load one you saved before.</p>
+    <div class="modal-actions">
+      <button id="export-save-btn" class="btn glass-btn" type="button">
+        <span class="icon-slot" data-icon="download"></span>
+        <span>Save to file</span>
+      </button>
+      <button id="import-save-btn" class="btn glass-btn" type="button">
+        <span class="icon-slot" data-icon="upload"></span>
+        <span>Load from file</span>
+      </button>
+      <input type="file" id="import-file-input" accept="application/json,.json" hidden>
+    </div>
+    <p id="save-modal-status" class="modal-status" aria-live="polite"></p>
+  </div>
+
+  <div id="welcome-modal" class="modal glass-panel" role="dialog" aria-modal="true" aria-labelledby="welcome-modal-title" hidden>
+    <div class="modal-head">
+      <h2 id="welcome-modal-title">No save data detected</h2>
+    </div>
+    <p class="modal-sub">WELCOME TO NETT GAMES 2 load a save file if you have one</p>
+    <div class="modal-actions">
+      <button id="welcome-load-btn" class="btn glass-btn primary" type="button">
+        <span class="icon-slot" data-icon="upload"></span>
+        <span>Load a save file</span>
+      </button>
+      <button id="welcome-skip-btn" class="btn glass-btn" type="button">Start fresh</button>
+    </div>
+  </div>
+
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/luminsdk/script@latest/lumin.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
