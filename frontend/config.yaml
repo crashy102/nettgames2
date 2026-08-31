@@ -21,6 +21,9 @@ games:
   - title: "Cookie Clicker"
     image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
     url: "https://crashy102.github.io/nettgames2/games/cookieClicker"
+  - title: "Subway Surfers"
+    image: "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/1c920b9279c2bedec567c1b58129ae8f/subway-surfers-logo.png"
+    url: "https://crashy102.github.io/nettgames2/games/subwaySurfers"
 
 # --------------------------------------------------------------
 # THEMES
