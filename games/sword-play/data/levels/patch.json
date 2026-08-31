@@ -1,0 +1,486 @@
+{
+    "1": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 60,
+                "enemyIndex": 2,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        20,
+                        -100
+                    ],
+                    "y": [
+                        -200,
+                        120
+                    ]
+                },
+                "text": "CUT!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "9": {
+        "enemies": [
+            {
+                "index": 0,
+                "position": {
+                    "x": 2.29,
+                    "y": -0.00027179718,
+                    "z": 12.09
+                }
+            },
+            {
+                "index": 1,
+                "position": {
+                    "x": 3.3,
+                    "y": -0.00027179718,
+                    "z": 7.13
+                }
+            },
+            {
+                "index": 2,
+                "position": {
+                    "x": -0.21,
+                    "y": -0.00027179718,
+                    "z": 8.93
+                }
+            },
+            {
+                "index": 3,
+                "position": {
+                    "x": 4,
+                    "y": -0.00027179718,
+                    "z": 6.21
+                }
+            }
+        ]
+    },
+    "10": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 33,
+                "enemyIndex": 3,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        50,
+                        -120
+                    ],
+                    "y": [
+                        150,
+                        -120
+                    ]
+                },
+                "text": "BLOCK!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ],
+        "enemies": [
+            {
+                "index": 3,
+                "shootRange": 18.5
+            }
+        ]
+    },
+    "11": {
+        "enemies": [
+            {
+                "index": 1,
+                "position": {
+                    "x": 0.9698305,
+                    "y": -0.28,
+                    "z": 27.194878
+                }
+            }
+        ]
+    },
+    "12": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 11,
+                "enemyIndex": 0,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        50,
+                        -120
+                    ],
+                    "y": [
+                        150,
+                        -120
+                    ]
+                },
+                "text": "BLOCK!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            },
+            {
+                "splinePosition": 56,
+                "enemyIndex": 2,
+                "endTrigger": "enemyKill",
+                "handPath": {
+                    "x": [
+                        20,
+                        -100
+                    ],
+                    "y": [
+                        -200,
+                        120
+                    ]
+                },
+                "text": "CUT!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "19": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 44,
+                "enemyIndex": 1,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        50,
+                        -120
+                    ],
+                    "y": [
+                        150,
+                        -120
+                    ]
+                },
+                "text": "BLOCK!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "30": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 10,
+                "enemyIndex": 1,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        50,
+                        -120
+                    ],
+                    "y": [
+                        150,
+                        -120
+                    ]
+                },
+                "text": "BLOCK!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "39": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 41.5,
+                "enemyIndex": 1,
+                "endTrigger": "projectileKill",
+                "handPath": {
+                    "x": [
+                        -65,
+                        -65
+                    ],
+                    "y": [
+                        150,
+                        -150
+                    ]
+                },
+                "text": "SLICE UP!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "50": {
+        "enemies": [
+            {
+                "index": 1,
+                "sliceableProjectiles": true
+            }
+        ],
+        "tutorialTriggers": [
+            {
+                "splinePosition": 12.5,
+                "enemyIndex": 1,
+                "endTrigger": "projectileSlice",
+                "handPath": {
+                    "x": [
+                        0,
+                        0
+                    ],
+                    "y": [
+                        -100,
+                        -320
+                    ]
+                },
+                "text": "SLICE!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "51": {
+        "enemies": [
+            {
+                "index": 3,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "53": {
+        "enemies": [
+            {
+                "index": 4,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "56": {
+        "enemies": [
+            {
+                "index": 1,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "58": {
+        "enemies": [
+            {
+                "index": 3,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "59": {
+        "enemies": [
+            {
+                "index": 2,
+                "sliceableProjectiles": true,
+                "shootRange": 90,
+                "projectileSpeed": 10
+            }
+        ]
+    },
+    "60": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 11.8,
+                "enemyIndex": 2,
+                "endTrigger": "enemyKill",
+                "handPath": {
+                    "x": [
+                        200,
+                        -200
+                    ],
+                    "y": [
+                        100,
+                        0
+                    ]
+                },
+                "text": "CUT!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "62": {
+        "enemies": [
+            {
+                "index": 0,
+                "position": {
+                    "x": -0.45,
+                    "y": 0.7447281,
+                    "z": 55.760002
+                }
+            }
+        ]
+    },
+    "64": {
+        "enemies": [
+            {
+                "index": 2,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "69": {
+        "enemies": [
+            {
+                "index": 1,
+                "position": {
+                    "x": -0.17926517,
+                    "y": 4.134726,
+                    "z": 46.90988
+                },
+                "type": "bombGolden",
+                "shootRange": 18,
+                "throwDirection": {
+                    "x": 0.75,
+                    "y": 6,
+                    "z": -5
+                }
+            },
+            {
+                "index": 2,
+                "shootRange": 18,
+                "throwDirection": {
+                    "x": 0.6,
+                    "y": 6,
+                    "z": -5
+                }
+            }
+        ]
+    },
+    "71": {
+        "enemies": [
+            {
+                "index": 2,
+                "shootDelay": 1,
+                "shootRange": 15,
+                "delay": 1.75,
+                "range": 2
+            }
+        ]
+    },
+    "74": {
+        "enemies": [
+            {
+                "index": 0,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "76": {
+        "enemies": [
+            {
+                "index": 0,
+                "cameraTarget": {
+                    "maxRange": 5
+                }
+            },
+            {
+                "index": 1,
+                "cameraTarget": {
+                    "maxRange": 5
+                }
+            },
+            {
+                "index": 3,
+                "cameraTarget": {
+                    "maxRange": 5
+                }
+            },
+            {
+                "index": 4,
+                "cameraTarget": {
+                    "maxRange": 5
+                }
+            },
+            {
+                "index": 5,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "81": {
+        "enemies": [
+            {
+                "index": 5,
+                "delay": 1.5,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "83": {
+        "tutorialTriggers": [
+            {
+                "splinePosition": 26,
+                "enemyIndex": 0,
+                "endTrigger": "projectileKill",
+                "handPath": {
+                    "x": [
+                        50,
+                        -120
+                    ],
+                    "y": [
+                        150,
+                        -120
+                    ]
+                },
+                "text": "SLICE 2 TIMES!",
+                "handAngle": -60,
+                "handAnimationTime": 1300
+            }
+        ]
+    },
+    "89": {
+        "enemies": [
+            {
+                "index": 3,
+                "delay": 1.2,
+                "shootRange": 19,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "90": {
+        "enemies": [
+            {
+                "index": 3,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "91": {
+        "enemies": [
+            {
+                "index": 1,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "93": {
+        "enemies": [
+            {
+                "index:": 0,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "94": {
+        "enemies": [
+            {
+                "index": 0,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "97": {
+        "enemies": [
+            {
+                "index": 4,
+                "sliceableProjectiles": true
+            }
+        ]
+    },
+    "98": {
+        "enemies": [
+            {
+                "index": 0,
+                "sliceableProjectiles": true
+            }
+        ]
+    }
+}

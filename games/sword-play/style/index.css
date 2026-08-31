@@ -1,0 +1,43 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background: #000000;
+	overflow: hidden;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	height: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.loading-text {
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 12vw;
+
+}
+
+@media screen and (orientation: landscape) {
+	.logo {
+		width: 50%;
+		height: 75%;
+	}
+
+	.loading-text {
+		font-size: 12vh;
+		bottom: 5%;
+	}
+}

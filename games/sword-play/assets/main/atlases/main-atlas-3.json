@@ -1,0 +1,1023 @@
+{
+  "frames": {
+    "icons/trails/pink": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 374,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 45,
+        "w": 374,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/rainbow": {
+      "frame": {
+        "x": 2,
+        "y": 327,
+        "w": 374,
+        "h": 322
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 45,
+        "w": 374,
+        "h": 322
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/red": {
+      "frame": {
+        "x": 380,
+        "y": 2,
+        "w": 374,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 45,
+        "w": 374,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/white": {
+      "frame": {
+        "x": 380,
+        "y": 327,
+        "w": 374,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 45,
+        "w": 374,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/yellow": {
+      "frame": {
+        "x": 380,
+        "y": 652,
+        "w": 374,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 45,
+        "w": 374,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/yellowStars": {
+      "frame": {
+        "x": 758,
+        "y": 2,
+        "w": 374,
+        "h": 355
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 11,
+        "w": 374,
+        "h": 355
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/blue": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/leaf": {
+      "frame": {
+        "x": 758,
+        "y": 361,
+        "w": 373,
+        "h": 352
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 14,
+        "w": 373,
+        "h": 352
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/money": {
+      "frame": {
+        "x": 2,
+        "y": 978,
+        "w": 373,
+        "h": 350
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 16,
+        "w": 373,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/yellowStars": {
+      "frame": {
+        "x": 758,
+        "y": 717,
+        "w": 373,
+        "h": 355
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 11,
+        "w": 373,
+        "h": 355
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/spiky": {
+      "frame": {
+        "x": 379,
+        "y": 977,
+        "w": 358,
+        "h": 323
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 43,
+        "w": 358,
+        "h": 323
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/spiky": {
+      "frame": {
+        "x": 1136,
+        "y": 2,
+        "w": 358,
+        "h": 324
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 43,
+        "w": 358,
+        "h": 324
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/flame": {
+      "frame": {
+        "x": 1136,
+        "y": 330,
+        "w": 357,
+        "h": 350
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 16,
+        "w": 357,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/flame": {
+      "frame": {
+        "x": 1135,
+        "y": 684,
+        "w": 357,
+        "h": 350
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 16,
+        "w": 357,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/mystic": {
+      "frame": {
+        "x": 2,
+        "y": 1332,
+        "w": 357,
+        "h": 351
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 16,
+        "w": 357,
+        "h": 351
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/electric": {
+      "frame": {
+        "x": 379,
+        "y": 1304,
+        "w": 310,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 64,
+        "y": 10,
+        "w": 310,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/electric": {
+      "frame": {
+        "x": 693,
+        "y": 1304,
+        "w": 310,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 64,
+        "y": 10,
+        "w": 310,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/bubbles": {
+      "frame": {
+        "x": 1135,
+        "y": 1038,
+        "w": 322,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 52,
+        "y": 47,
+        "w": 322,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/bubbles": {
+      "frame": {
+        "x": 1007,
+        "y": 1361,
+        "w": 322,
+        "h": 319
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 52,
+        "y": 47,
+        "w": 322,
+        "h": 319
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_41-50": {
+      "frame": {
+        "x": 1498,
+        "y": 2,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_51-60": {
+      "frame": {
+        "x": 1498,
+        "y": 262,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_61-70": {
+      "frame": {
+        "x": 1497,
+        "y": 522,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_71-80": {
+      "frame": {
+        "x": 1496,
+        "y": 782,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_81-90": {
+      "frame": {
+        "x": 1461,
+        "y": 1042,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/levels/World_91-100": {
+      "frame": {
+        "x": 1461,
+        "y": 1302,
+        "w": 256,
+        "h": 256
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/09": {
+      "frame": {
+        "x": 741,
+        "y": 1076,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/10": {
+      "frame": {
+        "x": 2,
+        "y": 1687,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/11": {
+      "frame": {
+        "x": 208,
+        "y": 1687,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/12": {
+      "frame": {
+        "x": 414,
+        "y": 1684,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/13": {
+      "frame": {
+        "x": 620,
+        "y": 1684,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/14": {
+      "frame": {
+        "x": 826,
+        "y": 1684,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/15": {
+      "frame": {
+        "x": 1032,
+        "y": 1684,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "boardWithChests/chest-glow/16": {
+      "frame": {
+        "x": 1238,
+        "y": 1684,
+        "w": 202,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 194
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "gradient-top-to-bottom": {
+      "frame": {
+        "x": 1444,
+        "y": 1562,
+        "w": 200,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 200,
+        "h": 200
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/cog": {
+      "frame": {
+        "x": 947,
+        "y": 1076,
+        "w": 175,
+        "h": 182
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 182
+      },
+      "sourceSize": {
+        "w": 175,
+        "h": 182
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/green": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/pink": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/rainbow": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/red": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/white": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/yellow": {
+      "frame": {
+        "x": 2,
+        "y": 653,
+        "w": 373,
+        "h": 321
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 45,
+        "w": 373,
+        "h": 321
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "icons/trails/greyscaled/mystic": {
+      "frame": {
+        "x": 1135,
+        "y": 684,
+        "w": 357,
+        "h": 350
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 23,
+        "y": 16,
+        "w": 357,
+        "h": 350
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 400
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "main-atlas-3.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1756,
+      "h": 1883
+    },
+    "scale": 1
+  }
+}

@@ -18,21 +18,85 @@ announcement:
 # "LuminSDK" tab of the game switcher. This list is Nett's games only.
 # --------------------------------------------------------------
 games:
-  - title: "example"
-    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
-    url: "https://www.example.com"
-  - title: "example"
-    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
-    url: "https://www.example.com"
-  - title: "example"
-    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
-    url: "https://www.example.com"
-  - title: "example"
-    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
-    url: "https://www.example.com"
-  - title: "example"
-    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
-    url: "https://www.example.com"
+  - title: "3D Bowling"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/3d-bowling"
+
+  - title: "8 Ball Classic"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/8-ball-classic"
+
+  - title: "AMAZE!"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/amaze"
+
+  - title: "Angry Birds Showdown"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/angry-birds-showdown"
+
+  - title: "Aquapark.io"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/aquapark-io"
+
+  - title: "Archery World Tour"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/archery-world-tour"
+
+  - title: "Attack Hole"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/attack-hole"
+
+  - title: "Bazooka Boy"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/bazooka-boy"
+
+  - title: "Bridge Race"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/bridge-race"
+
+  - title: "Cannon Balls 3D"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/cannon-balls-3d"
+
+  - title: "Crossy Road"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/crossy-road"
+
+  - title: "Dig Deep"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/dig-deep"
+
+  - title: "Flappy Dunk"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/flappy-dunk"
+
+  - title: "Mob Control"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/mob-control-html5"
+
+  - title: "Pokey Ball"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/pokey-ball"
+
+  - title: "Royal Towers: Medieval TD"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/royal-towers-medieval-td"
+
+  - title: "Slice It All"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/slice-it-all"
+
+  - title: "Stacky Dash"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/stacky-dash"
+
+  - title: "Sword Play"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/sword-play"
+
+  - title: "Turbo Stars"
+    image: ""
+    url: "https://crashy102.github.io/nettgames2/games/turbo-stars"
 
 # --------------------------------------------------------------
 # THEMES
