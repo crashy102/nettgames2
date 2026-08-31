@@ -18,9 +18,9 @@ announcement:
 # "LuminSDK" tab of the game switcher. This list is Nett's games only.
 # --------------------------------------------------------------
 games:
-  - title: "nun yet"
-    image: ""
-    url: "https://example.com"
+  - title: "Cookie Clicker"
+    image: "https://play-lh.googleusercontent.com/UuIl7UOtKmAjXGHX7qX_XvEIfE9K85u92a0f0Bf7hxKMpRmLFV6EdOEA_0MrMpToPpzLGaGP9p4neHwhFqts"
+    url: "https://crashy102.github.io/nettgames2/games/cookieClicker"
 
 # --------------------------------------------------------------
 # THEMES
