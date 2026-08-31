@@ -169,6 +169,13 @@
       t = setTimeout(() => fn(...args), wait);
     };
   }
+  
+  function compareTitles(a, b) {
+    // Numeric-aware, locale-aware A→Z sort — "Level 2" sorts before
+    // "Level 10", and symbols/numbers are ordered sensibly rather than
+    // just by character code.
+    return a.title.localeCompare(b.title, undefined, { numeric: true, sensitivity: "base" });
+  }
 
   function normalize(str) {
     return (str || "").toString().toLowerCase().trim();
@@ -213,7 +220,7 @@
         enabled: !!(cfg.announcement && cfg.announcement.enabled && cfg.announcement.text),
         text: (cfg.announcement && cfg.announcement.text) || "",
       },
-      games: Array.isArray(cfg.games) ? cfg.games.map(sanitizeGame).filter(Boolean) : [],
+      games: Array.isArray(cfg.games) ? cfg.games.map(sanitizeGame).filter(Boolean).sort(compareTitles) : [],
       themes: Array.isArray(cfg.themes) ? cfg.themes.map(sanitizeTheme).filter(Boolean) : [],
     };
   }
@@ -438,7 +445,7 @@
         image: images[i] || "",
         category: g.category || "",
         isLumin: true,
-      }));
+      })).sort(compareTitles);
       lumin.loaded = true;
     } catch (err) {
       console.error("Failed to load LuminSDK catalog:", err);
