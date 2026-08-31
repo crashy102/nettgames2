@@ -97,7 +97,7 @@
      ============================================================ */
   const ICON_DIR = "icons/";
   const ICON_EXTENSIONS = ["svg", "png"];
-  const ICON_KEEP_COLOR = new Set(["sidebar-image"]); // rendered as a plain <img>, not tinted
+  const ICON_KEEP_COLOR = new Set(["nett1"]); // rendered as a plain <img>, not tinted
 
   function probeImage(src) {
     return new Promise((resolve, reject) => {
